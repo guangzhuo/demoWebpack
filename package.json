@@ -15,8 +15,8 @@
     "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "webpack-dev-server --open"
+    "start": "webpack",
+    "dev": "webpack-dev-server --inline --hot --open"
   },
   "author": "",
   "license": "ISC"

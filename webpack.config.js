@@ -8,7 +8,8 @@ module.exports={
     devServer:{
         contentBase:'./public',
         historyApiFallback:true,
-        inline:true
+        inline:true,
+        hot:true
     },
     module:{
         rules:[
